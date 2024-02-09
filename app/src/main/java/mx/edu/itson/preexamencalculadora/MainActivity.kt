@@ -153,7 +153,7 @@ class MainActivity : AppCompatActivity() {
                   opResta = num1.toDouble() - num2.toDouble()
                   result.setText(opResta.toString())
               }
-             else if (lastChar == "/"){
+             else if (lastChar == "/ "){
                   num1 = result.text.toString().dropLast(1)
                   num2 = num.text.toString()
                   opDivision = num1.toDouble() / num2.toDouble()
